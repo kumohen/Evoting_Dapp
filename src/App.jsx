@@ -14,18 +14,14 @@ function App() {
     signer:null,
     contract:null
   })
-// 0x4f08e39350171ea9aF415fE2dFdfe2e3e0c4894c
-  // 0x8C7D3c699FAdf6883c9c17b37228DA97586E2D67
-  // 0x30BD82c28fCD0f596A9419f01Aec1b39F8677569
 
-// 0x2582E649eCa2a2427aA929A17C87e9bcBE5d4E8e
 
   const [account,setAccount]=useState('Not connected');
   useEffect(()=>{
     const connectContract=async()=>{
    
-      // const contractAddres="0x8C7D3c699FAdf6883c9c17b37228DA97586E2D67";
-      const contractAddres = "0x2582E649eCa2a2427aA929A17C87e9bcBE5d4E8e"
+     
+      const contractAddres = "Your Contract Address"
       const contractABI=ABI;
       //Metamask part
       //1. In order do transactions on sepolia testnet
